@@ -1,0 +1,130 @@
+\documentclass{article}
+
+\usepackage[swedish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Uppgift 2}
+\author{Marcus Persson}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Uppgift}
+
+Antag att funktionen $f$ och dess derivator
+till och med ordning $n+1$ är kontinuerliga och att
+
+\begin{equation}
+\label{Maclaurin_utveckling}
+    f(x) = a_0 + a_1x + a_2x^2
+    + \cdots + a_nx^n + x^{n+1}B(x),
+\end{equation}
+
+\noindent där funktionen $B(x)$ är begränsad i en omgivning av $x=0$.
+Visa då att:
+
+\begin{equation}
+\label{*}
+    a_k = \frac{f^{(k)}(0)}{k!},
+    \quad k = 0,1,2,\ldots,n.
+\end{equation}
+
+
+\section*{Bevis}
+
+\noindent Enligt sats 9.2 kan $f(x)$ skrivas som
+
+\begin{equation}
+    f(x) =
+    \sum_{k=0}^{n}
+    \frac{f^{(k)}(0)}{k!}x^k
+    + x^{n+1}B_1(x),
+\end{equation}
+
+\noindent där $B_1(x)$ är begränsad i en omgivning av $x=0$.
+
+\noindent Av antagandet har vi även
+
+\begin{equation}
+    f(x) =
+    \sum_{k=0}^{n} a_kx^k
+    + x^{n+1}B(x),
+\end{equation}
+
+\noindent där $B(x)$ är begränsad i en omgivning av $x=0$.
+
+\noindent Eftersom båda uttrycken beskriver samma funktion får vi
+
+\begin{equation}
+\begin{aligned}
+    \sum_{k=0}^{n}
+    \frac{f^{(k)}(0)}{k!}x^k
+    + x^{n+1}B_1(x)
+    &=
+    \sum_{k=0}^{n} a_kx^k
+    + x^{n+1}B(x).
+\end{aligned}
+\end{equation}
+
+\noindent Vi använder induktions metoden för att visa
+påståendet sant för $k=0,1,2,\ldots,n$.
+
+\subsection*{Basfallet $k=0$:}
+
+\begin{equation}
+    a_0 = \frac{f^{(0)}(0)}{0!} = f(0).
+\end{equation}
+
+\noindent Antag att påståendet gäller för
+$k=0,1,2,\ldots,p-1$, där $p\leq n$.
+
+\subsection*{Visa uttalandet sant för $k=p$:}
+
+\begin{equation}
+\begin{gathered}
+    a_px^p + \cdots + a_nx^n + x^{n+1}B(x)\\
+    =\\
+    \frac{f^{(p)}(0)}{p!}x^p
+    + \cdots
+    + \frac{f^{(n)}(0)}{n!}x^n
+    + x^{n+1}B_1(x).
+\end{gathered}
+\end{equation}
+
+\noindent Genom att dividera med $x^p$, då $x\neq 0$, får vi:
+
+\begin{equation}
+\begin{gathered}
+    a_p + \cdots + a_nx^{n-p}
+    + x^{n-p+1}B(x)\\
+    =\\
+    \frac{f^{(p)}(0)}{p!}
+    + \cdots
+    + \frac{f^{(n)}(0)}{n!}x^{n-p}
+    + x^{n-p+1}B_1(x).
+\end{gathered}
+\end{equation}
+
+\noindent När vi låter $x\longrightarrow 0$ får vi:
+
+\begin{equation}
+    a_p = \frac{f^{(p)}(0)}{p!}.
+\end{equation}
+
+\noindent Eftersom $B(x)$ och $B_1(x)$ är begränsade i en
+omgivning av $x=0$ följer det av induktionsprincipen att:
+
+\begin{equation}
+    a_k = \frac{f^{(k)}(0)}{k!}.
+\end{equation}
+
+\noindent Där av följer enligt induktionsprincipen att
+påståendet är sant $\forall\, k=0,1,2,\ldots,n$.
+\begin{flushright}
+    $\blacksquare$
+\end{flushright}
+
+\end{document}
