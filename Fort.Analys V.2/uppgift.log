@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.14)  15 NOV 2026 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.11.14)  16 NOV 2026 07:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,12 +148,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (3.77347pt too wide) in paragraph at lines 72--74
-\OT1/cmr/m/n/10 Vi anv[]ander in-duk-tions me-to-den f[]or att vi-sa p^^Wast^^Waendet sant f[]or $\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; [] ; n$\OT1/cmr/m/n/10 . 
- []
-
-[1
+) [1
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Overfull \hbox (3.0512pt too wide) in paragraph at lines 124--126
@@ -169,13 +164,13 @@ L3 programming layer <2026-09-09>
 Here is how much of TeX's memory you used:
  3059 strings out of 466968
  51181 string characters out of 5407724
- 473305 words of memory out of 5000000
+ 473342 words of memory out of 5000000
  32539 multiletter control sequences out of 15000+600000
  636044 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,8n,65p,278b,186s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on uppgift.pdf (2 pages, 124580 bytes).
+Output written on uppgift.pdf (2 pages, 127745 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
